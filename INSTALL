@@ -1,3 +1,5 @@
+_thinktainer_
+	./configure CFLAGS="-fPIC" CXXFLAGS="-fPIC" CUDA_CFLAGS="-ccbin clang-3.8 -Xcompiler -fPIC"
 
 You can use ./build.sh to configure and build with default options.
 
